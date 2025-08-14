@@ -32,3 +32,4 @@ server.listen(config.server.port, config.server.host, () => {
     console.log(`Server running on ${config.server.host}:${config.server.port}`);
     console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
 });
+
